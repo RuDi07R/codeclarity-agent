@@ -1,0 +1,13 @@
+python-dotenv
+langchain
+langchain-google-genai
+langchain-community
+langgraph
+streamlit
+tiktoken
+gitpython
+neo4j
+ragas
+datasets
+pandas
+chromadb

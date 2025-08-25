@@ -1,0 +1,13 @@
+ 
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+
+# Local Databases
+chroma_db/
+cloned_repo/
+
+# IDE files
+.idea/
+.vscode/
