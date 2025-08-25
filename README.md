@@ -38,36 +38,41 @@ Neo4j AuraDB account (for the graph component)
 Installation
 Clone the repository:
 
-Bash
+```bash
 
 git clone https://github.com/RuDi07R/codeclarity-agent.git
-Bash
-
+```
+```bash
 cd codeclarity-agent
+```
+```bash
 Create and activate a virtual environment:
-
-Bash
+```
+```Bash
 
 python -m venv venv
-Bash
+```
+```Bash
 
 venv\Scripts\activate
 Install the required packages:
-
-Bash
+```
+```Bash
 
 pip install -r requirements.txt
+```
 Configuration
 Set up your local Ollama server by downloading the required models:
 
-Bash
 
 # Download the chat model
+```Bash
 ollama run tinyllama
-Bash
-
+```
 # Download the embedding model
+```Bash
 ollama run nomic-embed-text
+```
 Create a .env file for your Neo4j credentials.
 
 NEO4J_URI="neo4j+s://xxxxxxxx.databases.neo4j.io"
@@ -76,22 +81,24 @@ NEO4J_PASSWORD="YourSecretPassword"
 Running the Project
 Run the Ollama server in a separate command prompt:
 
-Bash
-
+```Bash
 ollama run tinyllama
 Run the data preparation scripts in your project's terminal:
 
-Bash
-
+```
+```Bash
 python ingest_data.py
-Bash
+```
+```Bash
 
 python build_graph.py
+```
 Launch the application:
 
-Bash
+```Bash
 
 streamlit run app.py
+```
 🧠 Usage Examples
 "What is Flask's request context and how is it used?"
 
