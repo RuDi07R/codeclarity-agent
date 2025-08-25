@@ -1,6 +1,5 @@
 # codeclarity-agent
 
-
 🌟 Overview
 CodeClarity Agent is an advanced AI-powered assistant designed to help developers and data teams navigate complex codebases through natural language conversations. The agent transforms unstructured source code into a structured knowledge base, combining semantic search with relational insights to provide accurate and context-aware answers to technical questions.
 
@@ -42,12 +41,16 @@ Clone the repository:
 Bash
 
 git clone https://github.com/RuDi07R/codeclarity-agent.git
+Bash
+
 cd codeclarity-agent
 Create and activate a virtual environment:
 
 Bash
 
 python -m venv venv
+Bash
+
 venv\Scripts\activate
 Install the required packages:
 
@@ -61,6 +64,8 @@ Bash
 
 # Download the chat model
 ollama run tinyllama
+Bash
+
 # Download the embedding model
 ollama run nomic-embed-text
 Create a .env file for your Neo4j credentials.
@@ -79,6 +84,8 @@ Run the data preparation scripts in your project's terminal:
 Bash
 
 python ingest_data.py
+Bash
+
 python build_graph.py
 Launch the application:
 
