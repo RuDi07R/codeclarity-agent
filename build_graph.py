@@ -66,4 +66,5 @@ def populate_graph_from_vector_db():
     print("Graph population complete.")
 
 if __name__ == "__main__":
+
     populate_graph_from_vector_db()
